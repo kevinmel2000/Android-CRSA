@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_com_de_com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ileos.crsaencryption.gui.ComDeCom">
+
+    <Button
+        android:text="openFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/openFileC"
+        android:drawablePadding="5dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/compressButton"
+        android:layout_alignStart="@+id/compressButton" />
+
+    <Button
+        android:text="Compress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/compressButton"
+        android:drawablePadding="5dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_alignBaseline="@+id/decompressButton"
+        android:layout_alignBottom="@+id/decompressButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="DeCompress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/decompressButton"
+        android:drawablePadding="5dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="114dp"
+        android:layout_below="@+id/openFileC"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/openFileC"
+        android:layout_alignLeft="@+id/openFileC"
+        android:layout_alignStart="@+id/openFileC"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textView" />
+</RelativeLayout>

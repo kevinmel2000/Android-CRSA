@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RSA-CRSA Encryption</string>
+    <string name="algorithm_prompt">Select Algorithm</string>
+    <string-array name="algorithm_arrays">
+        <item>RSA</item>
+        <item>Compression RSA</item>
+    </string-array>
+
+    <string name="iterate_prompt">Select Iterate</string>
+    <string-array name="iterate_arrays">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+</resources>
